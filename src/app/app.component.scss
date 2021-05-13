@@ -6,16 +6,31 @@
     bottom: 0;
     z-index: 9999;
     width: 100%;
-    background-color:linear-gradient(to bottom, rgba(68,47,105,1) 0%, rgba(201,158,242,1) 54%, rgba(0,163,11,1) 68%, rgba(0,163,11,1) 100%);
+    background-color:#492c4a;
 }
 
 .container-splash {
     --background: none;
-    background: linear-gradient(to bottom, rgba(68,47,105,1) 0%, rgba(201,158,242,1) 54%, rgba(0,163,11,1) 68%, rgba(0,163,11,1) 100%);
+    background: #492c4a;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 
+}
+
+.container-titulo
+{
+  height: 7%;
+  width: 60%;
+  text-align: center;
+  position: absolute;
+  left: 20%;
+  top: 5%;
+}
+.titulo {
+  font-size: 24px;
+  font-family: 'Chrono';
+  color: white;
 }

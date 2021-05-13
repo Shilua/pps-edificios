@@ -28,7 +28,15 @@ export class HomePage {
   subscribe: any;
 
 
-  constructor(public platform: Platform, private keyboard: Keyboard, private vibration: Vibration, private statusBar: StatusBar,db: AngularFirestore,public router: Router, private loadingCtrl: LoadingController) {
+  constructor(
+    public platform: Platform, 
+    private keyboard: Keyboard, 
+    private vibration: Vibration, 
+    private statusBar: StatusBar,
+    db: AngularFirestore,
+    public router: Router, 
+    private loadingCtrl: LoadingController
+    ) {
 
     
     this.subscribe = this.platform.backButton.subscribeWithPriority(1000,() => {

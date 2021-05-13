@@ -40,7 +40,7 @@
 
 .container-posteos {
     overflow: scroll;
-    height: 69%;
+    height: 84%;
 
 }
 
@@ -53,13 +53,13 @@
     width: 80%;
     height: 5%;
     border-radius: 10px;
-    background-color: rgb(60, 60, 240);
+    background-color: #492c4a;
     display: flex;
     padding: 0.75% 0;
     margin: 3% 0%;
     transition: ease background 0.2s;
     &:active {
-        background-color: rgb(36, 36, 138);
+        background-color: rgba(230, 91, 112);
     }
 }
 
@@ -141,7 +141,7 @@ ion-toolbar {
     align-items: center;
     transition: ease all 0.2s;
     &:active {
-        background-color: rgba(110, 214, 255, 0.712);
+        background-color: rgba(230, 91, 112);
     }
 }
 

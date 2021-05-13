@@ -33,9 +33,10 @@
         <ion-card-subtitle class="datos-post">{{foto.usuario}} - {{foto.fecha}}</ion-card-subtitle>
         <ion-card-subtitle class="likes-post"><span class="contador-likes"></span>
           <ion-icon id="like" class="like" name="heart-outline" (click)="like(foto)" *ngIf="!buscarLike(foto.foto)"></ion-icon>
-          <ion-icon id="dislike" class="dislike" name="heart" (click)="dislike(foto)" *ngIf="buscarLike(foto.foto)"></ion-icon>
+          <ion-icon id="dislike" class="dislike" name="heart" (click)="dislike(foto)" *ngIf="buscarLike(foto.foto)"></ion-icon> 
         </ion-card-subtitle>
       </ion-card-header>
+      
     </ion-card>
   </div>
 
